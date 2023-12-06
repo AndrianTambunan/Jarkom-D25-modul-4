@@ -5,6 +5,9 @@
 | 1 | Andrian Tambunan  | 5025211018 | 
 | 2 | Sandhika Surya Ardyanto | 5025211022 |
 
+## Subnetting
+![image](https://github.com/AndrianTambunan/Jarkom-D25-modul-4/assets/100081922/8ecdcd98-0835-4f92-a595-eeed1bebcc9b)
+
 | Subnet | Rute | Jumlah IP | Netmask |
 | -------- | ------ | --------- | -------- |
 | A1 | Heiter-Switch2-Sein&RiegelCanyon | 512 | /22 |
@@ -29,8 +32,9 @@
 | A20 | Frieren-Switch6-LakeKorridor | 25 | /27 |
 | A21 | Eisen-Aura | 2 | /30 |
 
-## CPT VLSM
-### Pembagian IP 
+## VLSM CPT
+### Pembagian IP VLSM
+### IP Configuration VLSM
 ---
 - Heiter (A1)
 ```
@@ -80,10 +84,13 @@ IPv4 Address      : 10.34.0.2
 Subnet Mask       : 255.255.252.0
 ```
 ---
+## Routing VLSM
 
 
 
-## GNS3 CIDR
+## CIDR GNS 3
+### GNS 3 Topologi
+### Flow Pembagian CIDR
 ### Pembagian Blok Subnet
 | Subnet 1 | Netmask 1 | Subnet 2 | Neetmask 2 | Blok Subnet | Netmask Blok |
 | ----------- | ----------- | ------------ | ----------- | ----------- | ------------ |
@@ -131,3 +138,9 @@ Subnet Mask       : 255.255.252.0
 | Subnet 1 | Netmask 1 | Subnet 2 | Neetmask 2 | Blok Subnet | Netmask Blok |
 | ----------- | ----------- | ------------ | ----------- | ----------- | ------------ |
 | H1 | /15 | B5 | /23 | I1 | /14 |
+
+### Tree
+### Pembagian IP
+### IP Configuration
+### Percobaan Ping IP (per Subnet CIDR)
+### Kendala Pengerjaan
