@@ -523,6 +523,28 @@ Subnet Mask   : 255.255.255.252
 ### Pembagian IP
 ### IP Configuration
 - Aura
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+	address 10.34.1.1
+	netmask 255.255.255.252
+
+auto eth2
+iface eth1 inet static
+	address 10.35.128.1
+	netmask 255.255.255.252
+
+auto eth3
+iface eth1 inet static
+	address 10.34.128.1
+	netmask 255.255.255.252
+```
 - Denken
 ```
 auto lo
@@ -539,6 +561,22 @@ iface eth1 inet static
 	address 10.36.0.1
 	netmask 255.255.255.0
 ```
-- 
+- RoyalCapital
+```
+auto eth0
+iface eth0 inet static
+	address 10.34.0.2
+	netmask 255.255.255.0
+	gateway 10.34.0.1
+```
+- WilleRegion
+```
+auto eth0
+iface eth0 inet static
+	address 10.34.0.3
+	netmask 255.255.255.0
+	gateway 10.34.0.1
+```
+- l
 ### Percobaan Ping IP (per Subnet CIDR)
 ### Kendala Pengerjaan
