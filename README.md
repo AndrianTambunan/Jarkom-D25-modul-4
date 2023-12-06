@@ -9,7 +9,8 @@
 ![image](https://github.com/AndrianTambunan/Jarkom-D25-modul-4/assets/100081922/8ecdcd98-0835-4f92-a595-eeed1bebcc9b)
 
 | Subnet | Rute | Jumlah IP | Netmask |
-  | A1 | Heiter-Switch2-Sein&RiegelCanyon | 512 | /22 |
+| -------- | ------ | --------- | -------- |
+| A1 | Heiter-Switch2-Sein&RiegelCanyon | 512 | /22 |
 | A2 | Lawine&Heiter-Switch1-BredtRegion | 31 | /26 | 
 | A3 | Linie-Switch0-GranzChannel | 255 | /23 |
 | A4 | Lawine-Linie | 2 | /30 |
