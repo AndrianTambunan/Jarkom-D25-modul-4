@@ -84,31 +84,301 @@ Subnet Mask       : 255.255.252.0
 ```
 ---
 
-
-- Heiter (A1)
+- Heiter (A2)
 ```
 IPv4 Address  : 10.34.24.2
 Subnet Mask   : 255.255.255.192
 ```
 
-- Lawine (A1)
+- Lawine (A2)
 ```
-IPv4 Address  : 10.34.24.2
+IPv4 Address  : 10.34.24.1
 Subnet Mask   : 255.255.255.192
 ```
 
-- BredtRegion (A1)
+- BredtRegion (A2)
 ```
-Default Gateaway  : 10.34.0.1
-IPv4 Address      : 10.34.0.2
-Subnet Mask       : 255.255.252.0
+Default Gateaway  : 10.34.24.1
+IPv4 Address      : 10.34.24.3
+Subnet Mask       : 255.255.255.192
+```
+---
+
+- Linie (A3)
+```
+IPv4 Address  : 10.34.18.1
+Subnet Mask   : 255.255.254.0
 ```
 
-- Sien (A1)
+- GranzChannel (A3)
 ```
-Default Gateaway  : 10.34.0.1
-IPv4 Address      : 10.34.0.2
+Default Gateaway  : 10.34.18.1
+IPv4 Address      : 10.34.18.1
+Subnet Mask       : 255.255.254.0
+```
+---
+
+- Linie (A4)
+```
+IPv4 Address  : 10.34.24.113
+Subnet Mask   : 255.255.255.252
+```
+
+- Lawine (A4)
+```
+IPv4 Address  : 10.34.24.114
+Subnet Mask   : 255.255.255.252
+```
+---
+
+- Linie (A5)
+```
+IPv4 Address  : 10.34.24.117
+Subnet Mask   : 255.255.255.252
+```
+
+- Eisen (A5)
+```
+IPv4 Address  : 10.34.24.118
+Subnet Mask   : 255.255.255.252
+```
+---
+
+- Eisen (A6)
+```
+IPv4 Address  : 10.34.24.105
+Subnet Mask   : 255.255.255.248
+```
+
+- Richter (A6)
+```
+Default Gateaway  : 10.34.24.105
+IPv4 Address      : 10.34.24.106
+Subnet Mask       : 255.255.255.248
+```
+
+- Revolt (A6)
+```
+Default Gateaway  : 10.34.18.1
+IPv4 Address      : 10.34.24.107
+Subnet Mask       : 255.255.255.248
+```
+---
+
+- Lugner (A7)
+```
+IPv4 Address  : 10.34.17.1
+Subnet Mask   : 255.255.255.0
+```
+
+- GrobeForest (A7)
+```
+Default Gateaway  : 10.34.17.1
+IPv4 Address      : 10.34.17.2
+Subnet Mask       : 255.255.255.0
+```
+---
+
+- Lugner (A8)
+```
+IPv4 Address  : 10.34.4.1
+Subnet Mask   : 255.255.252.0
+```
+
+- TurkRegion (A8)
+```
+Default Gateaway  : 10.34.4.1
+IPv4 Address      : 10.34.4.2
 Subnet Mask       : 255.255.252.0
+```
+---
+
+- Lugner (A9)
+```
+IPv4 Address  : 10.34.24.122
+Subnet Mask   : 255.255.255.252
+```
+
+- Eisen (A9)
+```
+IPv4 Address  : 10.34.24.121
+Subnet Mask   : 255.255.255.252
+```
+---
+
+- Eiseb (A10)
+```
+IPv4 Address  : 10.34.24.125
+Subnet Mask   : 255.255.252.0
+```
+
+- Stark (A10)
+```
+Default Gateaway  : 10.34.24.125
+IPv4 Address      : 10.34.24.126
+Subnet Mask       : 255.255.252.0
+```
+---
+
+- Denken (A11)
+```
+IPv4 Address  : 10.34.16.1
+Subnet Mask   : 255.255.255.0
+```
+
+- RoyalCapital (A11)
+```
+Default Gateaway  : 10.34.16.1
+IPv4 Address      : 10.34.16.2
+Subnet Mask       : 255.255.255.0
+```
+
+- WilleRegion (A11)
+```
+Default Gateaway  : 10.34.16.1
+IPv4 Address      : 10.34.16.65
+Subnet Mask       : 255.255.255.0
+```
+---
+
+- Aura (A12)
+```
+IPv4 Address  : 10.34.24.129
+Subnet Mask   : 255.255.255.252
+```
+
+- Denken (A12)
+```
+IPv4 Address  : 10.34.24.130
+Subnet Mask   : 255.255.255.252
+```
+---
+
+- Aura (A13)
+```
+IPv4 Address  : 10.34.24.133
+Subnet Mask   : 255.255.255.252
+```
+
+- Frieren (A13)
+```
+IPv4 Address  : 10.34.24.134
+Subnet Mask   : 255.255.255.252
+```
+---
+
+- Fern (A14)
+```
+IPv4 Address  : 10.34.8.1
+Subnet Mask   : 255.255.248.0
+```
+
+- AppetitRegion (A14)
+```
+Default Gateaway  : 10.34.8.1
+IPv4 Address      : 10.34.9.142
+Subnet Mask       : 255.255.248.0
+```
+
+- LaubHills (A14)
+```
+Default Gateaway  : 10.34.8.1
+IPv4 Address      : 10.34.8.2
+Subnet Mask       : 255.255.248.0
+```
+---
+
+- Flamme (A15)
+```
+IPv4 Address  : 10.34.20.1
+Subnet Mask   : 255.255.252.0
+```
+
+- RohrRoad (A15)
+```
+Default Gateaway  : 10.34.20.1
+IPv4 Address      : 10.34.20.2
+Subnet Mask       : 255.255.252.0
+```
+---
+
+- Himmel (A16)
+```
+IPv4 Address  : 10.34.25.97
+Subnet Mask   : 255.255.252.0
+```
+
+- SchwerMountains (A16)
+```
+Default Gateaway  : 10.34.25.97
+IPv4 Address      : 10.34.25.98
+Subnet Mask       : 255.255.252.0
+```
+---
+
+- Flamme (A17)
+```
+IPv4 Address  : 10.34.24.137
+Subnet Mask   : 255.255.255.252
+```
+
+- Himmel (A17)
+```
+IPv4 Address  : 10.34.24.138
+Subnet Mask   : 255.255.255.252
+```
+---
+
+- Flamme (A18)
+```
+IPv4 Address  : 10.34.24.142
+Subnet Mask   : 255.255.255.252
+```
+
+- Frieren (A18)
+```
+IPv4 Address  : 10.34.24.141
+Subnet Mask   : 255.255.255.252
+```
+---
+
+- Flamme (A19)
+```
+IPv4 Address  : 10.34.24.145
+Subnet Mask   : 255.255.255.252
+```
+
+- Fern (A19)
+```
+IPv4 Address  : 10.34.24.146
+Subnet Mask   : 255.255.255.252
+```
+---
+
+- Frieren (A20)
+```
+IPv4 Address  : 10.34.24.65
+Subnet Mask   : 255.255.255.224
+```
+
+- LakeKorridor (A20)
+```
+Default Gateaway  : 10.34.24.65
+IPv4 Address      : 10.34.24.66
+Subnet Mask       : 255.255.255.224
+```
+---
+
+- Aura (A21)
+```
+IPv4 Address  : 10.34.24.149
+Subnet Mask   : 255.255.255.252
+```
+
+- Eisen (A21)
+```
+IPv4 Address  : 10.34.24.150
+Subnet Mask   : 255.255.255.252
 ```
 ---
 ## Routing VLSM
