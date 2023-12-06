@@ -522,5 +522,23 @@ Subnet Mask   : 255.255.255.252
 ### Tree
 ### Pembagian IP
 ### IP Configuration
+- Aura
+- Denken
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+	address 10.36.1.2
+	netmask 255.255.255.252
+	gateway 10.36.1.1
+
+auto eth1
+iface eth1 inet static
+	address 10.36.0.1
+	netmask 255.255.255.0
+```
+- 
 ### Percobaan Ping IP (per Subnet CIDR)
 ### Kendala Pengerjaan
