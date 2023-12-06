@@ -471,6 +471,7 @@ Subnet Mask   : 255.255.255.252
 ## CIDR GNS 3
 ### GNS 3 Topologi
 ### Flow Pembagian CIDR
+![image](https://github.com/Sandhika21/Jarkom-Modul-4-D25-2023/blob/main/tree.jpg)
 ### Pembagian Blok Subnet
 | Subnet 1 | Netmask 1 | Subnet 2 | Neetmask 2 | Blok Subnet | Netmask Blok |
 | ----------- | ----------- | ------------ | ----------- | ----------- | ------------ |
@@ -577,6 +578,34 @@ iface eth0 inet static
 	netmask 255.255.255.0
 	gateway 10.34.0.1
 ```
-- l
+- Frieren
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.35.128.2
+netmask 255.255.255.252
+gateway 10.35.128.1
+
+auto eth1
+iface eth1 inet static
+address 10.35.64.1
+netmask 255.255.255.224
+
+auto eth2
+iface eth2 inet static
+address 10.35.32.1
+netmask 255.255.255.252
+```
+- LakeKorridor
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.64.2
+        netmask 255.255.255.224
+	gateway 10.35.64.1
+```
 ### Percobaan Ping IP (per Subnet CIDR)
 ### Kendala Pengerjaan
