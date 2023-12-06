@@ -113,7 +113,7 @@ Subnet Mask   : 255.255.254.0
 - GranzChannel (A3)
 ```
 Default Gateaway  : 10.34.18.1
-IPv4 Address      : 10.34.18.1
+IPv4 Address      : 10.34.18.2
 Subnet Mask       : 255.255.254.0
 ```
 ---
@@ -133,13 +133,13 @@ Subnet Mask   : 255.255.255.252
 
 - Linie (A5)
 ```
-IPv4 Address  : 10.34.24.117
+IPv4 Address  : 10.34.24.118
 Subnet Mask   : 255.255.255.252
 ```
 
 - Eisen (A5)
 ```
-IPv4 Address  : 10.34.24.118
+IPv4 Address  : 10.34.24.117
 Subnet Mask   : 255.255.255.252
 ```
 ---
@@ -159,7 +159,7 @@ Subnet Mask       : 255.255.255.248
 
 - Revolt (A6)
 ```
-Default Gateaway  : 10.34.18.1
+Default Gateaway  : 10.34.24.105
 IPv4 Address      : 10.34.24.107
 Subnet Mask       : 255.255.255.248
 ```
@@ -305,14 +305,14 @@ Subnet Mask       : 255.255.252.0
 - Himmel (A16)
 ```
 IPv4 Address  : 10.34.25.97
-Subnet Mask   : 255.255.252.0
+Subnet Mask   : 255.255.255.248
 ```
 
 - SchwerMountains (A16)
 ```
 Default Gateaway  : 10.34.25.97
 IPv4 Address      : 10.34.25.98
-Subnet Mask       : 255.255.252.0
+Subnet Mask       : 255.255.255.248
 ```
 ---
 
