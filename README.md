@@ -206,17 +206,17 @@ Subnet Mask   : 255.255.255.252
 ```
 ---
 
-- Eiseb (A10)
+- Eisen (A10)
 ```
 IPv4 Address  : 10.34.24.125
-Subnet Mask   : 255.255.252.0
+Subnet Mask   : 255.255.255.252
 ```
 
 - Stark (A10)
 ```
 Default Gateaway  : 10.34.24.125
 IPv4 Address      : 10.34.24.126
-Subnet Mask       : 255.255.252.0
+Subnet Mask       : 255.255.255.252
 ```
 ---
 
